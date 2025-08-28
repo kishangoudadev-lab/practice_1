@@ -35,3 +35,9 @@ console.log(obj);
 console.log(y);
 console.log(z);
 
+let arr = [1,2,3,4];
+let n = JSON.parse(JSON.stringify(arr));
+let c = [...arr];
+arr[3] +=5;
+console.log(n);
+console.log(c);
